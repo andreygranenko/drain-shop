@@ -61,7 +61,7 @@ width: 24px;
 height: 24px;
 left: 1360px;
 top: 3px;
-
+cursor: pointer;
 
 
 /* Vector */
@@ -100,16 +100,27 @@ h1 {
 #button_div {
     width: 256px;
     height: 60px;
-    background: rgb(173, 216, 230);
+    background: #96AFDE;
     text-align: center;
     line-height: 60px;
     margin-bottom: 95px;
+    transition: all 1s ease-out;
+}
+
+#button_div:hover {
+    background-color: #2A64D0;
+    cursor: pointer;
 }
 
 .lang {
     display: flex;
     font-size: 25px;
     margin-bottom: 19px;
+    transition: all 1s ease-out;
+}
+
+.lang a:hover {
+    color: #555555;
 }
 
 .first_lan {
