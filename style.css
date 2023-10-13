@@ -1,6 +1,11 @@
 html {
     box-sizing: border-box;
   }
+
+body {
+    margin: 0;
+    padding: 0;
+}
   
 *, *:after, *:before {
     box-sizing: inherit;
@@ -13,7 +18,7 @@ img {
 .header {
     /* background: rgb(173, 216, 230); */
     background-color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 50px;
 }
 
@@ -25,7 +30,7 @@ body {
 
 .content {
     margin-left: 100px;
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 header {
@@ -60,7 +65,7 @@ a.link {
 
 img.cart {
     /* mdi-light:cart */
-margin-top: 13px;
+/* margin-top: 13px; */
 /* position: absolute; */
 width: 24px;
 height: 24px;
@@ -108,8 +113,9 @@ h1 {
     background: #96AFDE;
     text-align: center;
     line-height: 60px;
-    margin-bottom: 95px;
+    margin-bottom: 65px;
     transition: all 1s ease-out;
+    border-radius: 10px;
 }
 
 #button_div:hover {
@@ -137,19 +143,19 @@ h1 {
     display: flex;
 }
 
-#fst_img {
+/* #fst_img {
     width: 255px;
     height: 397 px;
     background-color: #E8E8E8;
     margin-right: 30px;
     /* margin-bottom: 19px; */
-}
+/* } */ 
 
-#scd_img {
+/* #scd_img {
     width: 255px;
     height: 397 px;
     background-color: #E8E8E8;  
-}
+} */
 
 /* img.products {
     width: 100%;
@@ -157,11 +163,50 @@ h1 {
     background: #E8E8E8;
 } */
 
-#prod {
+/* https://www.sportsdirect.com/images/products/59190403_l.jpg */
+
+.productListParent {
     display: flex;
+    flex: 1 1 auto;
     margin-bottom: 19px;
 }
 
 #pages {
     margin-left: 1150px;
 }
+
+.left__section ul, .right__section ul{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 12px 0 0;
+    padding: 0;
+    font-size: 17px;
+    /* line-height: 0px; */
+    list-style: none;
+}
+
+.left__section a, .right__section a{
+    transition: all 0.5s ease-out;
+}
+
+.left__section a:hover, .right__section a:hover, .lang a:hover{
+    background-color: #2A64D0;
+}
+.left__section a, .right__section a {
+    display: block;
+    padding: 6px 8px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 10px;
+}
+
+.right__section li {
+    margin-right: 25px;
+}
+
+.lang a {
+    padding: 5px 6px;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+

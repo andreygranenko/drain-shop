@@ -9,12 +9,13 @@ class ProductCard {
 
     render() {
         const element = document.createElement('div');
-        img.setAttribute('src', this.src);
-        img.setAttribute('alt', this.alt);
-        img.innerHTML = `
+        element.classList.add('productPar');
+        // img.setAttribute('src', this.src);
+        // img.setAttribute('alt', this.alt);
+        element.innerHTML = `
             <img src=${this.src} alt=${this.alt}>
         `;
-        this.parent.append(img);
+        this.parent.append(element);
     }
 }
 
@@ -22,6 +23,6 @@ axios.get('http://localhost:3000/menu')
   .then(response => {
     response.data.forEach(({img, altimg}) => {
         console.log(img, altimg);
-        new ProductCard(img, altimg, '.productPar').render();
+        new ProductCard(img, altimg, '.productListParent').render();
     });
   });
