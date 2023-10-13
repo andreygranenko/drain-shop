@@ -6,6 +6,10 @@ html {
     box-sizing: inherit;
   }
 
+img {
+    max-width: 100%;
+}
+
 .header {
     /* background: rgb(173, 216, 230); */
     background-color: white;
