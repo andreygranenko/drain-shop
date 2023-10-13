@@ -1,0 +1,151 @@
+html {
+    box-sizing: border-box;
+  }
+  
+*, *:after, *:before {
+    box-sizing: inherit;
+  }
+
+.header {
+    /* background: rgb(173, 216, 230); */
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+
+}
+
+.content {
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+header {
+
+    /* width: 100%; /* Установите ширину "header" */
+    /* overflow: hidden; Запретить переносы строк */ 
+    font-family: "Roboto";
+    display: flex;
+
+  }
+  
+  p {
+    /* display: inline-block; Установите элементы "p" как инлайновые блоки */
+    margin-right: 10px; /* Необязательное свойство, чтобы добавить промежуток между элементами "p" */
+
+  }
+  
+#first {
+    margin-right: 455px;
+}
+
+a.link {
+    text-decoration: none;
+    color: black;
+}
+
+.catalog {
+    margin-right: 53px;
+    
+}
+
+img.cart {
+    /* mdi-light:cart */
+margin-top: 13px;
+/* position: absolute; */
+width: 24px;
+height: 24px;
+left: 1360px;
+top: 3px;
+
+
+
+/* Vector */
+
+/* position: absolute; */
+left: 4.17%;
+right: 16.67%;
+top: 30.5%;
+bottom: 20.33%;
+background-color: white;
+/* background: rgb(173, 216, 230); */
+
+}
+
+.content1 {
+    width: 344px;
+    margin-right: 204px;
+}
+
+h1 {
+
+    font-family: 'Roboto';
+    margin-bottom: 29px;
+}
+
+#over_button {
+    margin-bottom: 42px;
+
+}
+
+#button_und {
+    color: white;
+    
+}
+
+#button_div {
+    width: 256px;
+    height: 60px;
+    background: rgb(173, 216, 230);
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 95px;
+}
+
+.lang {
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 19px;
+}
+
+.first_lan {
+    margin-right: 54px;
+
+}
+
+.content2 {
+    display: flex;
+}
+
+#fst_img {
+    width: 255px;
+    height: 397 px;
+    background-color: #E8E8E8;
+    margin-right: 30px;
+    /* margin-bottom: 19px; */
+}
+
+#scd_img {
+    width: 255px;
+    height: 397 px;
+    background-color: #E8E8E8;  
+}
+
+/* img.products {
+    width: 100%;
+    height: 100%;
+    background: #E8E8E8;
+} */
+
+#prod {
+    display: flex;
+    margin-bottom: 19px;
+}
+
+#pages {
+    margin-left: 1150px;
+}
