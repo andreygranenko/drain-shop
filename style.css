@@ -41,6 +41,7 @@ header {
   
 #first {
     margin-right: 455px;
+    cursor: pointer;
 }
 
 a.link {
